@@ -4,16 +4,18 @@
  *
  */
 
-function Alien(name) {
+function Persoon(name) {
 	this.name = name;
 }
 
-Alien.prototype.speak = function () {
-	console.log('Hi, my name is ' + this.name);
+Persoon.prototype.walk = function () {
+	console.log('Hi, my name is ' + this.name) + 'and I walk';
 };
 
-var rob = new Alien('Robert Rock');
-var roberta = new Alien('Roberta Rock');
+Persoon.prototype.eat = function () {
+	console.log('Hi, my name is ' + this.name) + 'and I eat' ;
+};
 
-rob.speak();
-roberta.speak();
+var bob = new Persoon('Bob');
+
+bob.speak();
