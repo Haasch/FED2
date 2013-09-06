@@ -9,15 +9,14 @@ function Persoon(name) {
 }
 
 Persoon.prototype.walk = function () {
-	console.log('Hi, my name is ' + this.name) + 'and I walk';
+	console.log('Hi, my name is ' + this.name + ' and I walk');
 };
 
 Persoon.prototype.eat = function () {
-	console.log('Hi, my name is ' + this.name) + 'and I eat' ;
+	console.log('Hi, my name is ' + this.name + ' and I eat');
 };
 
 var bob = new Persoon('Bob');
 
-bob.speak();
 bob.walk();
 bob.eat();
