@@ -4,8 +4,8 @@
  *
  */
 
-var alien = {
-	name: 'Robert Rock',
+var bob = {
+	name: 'Bob',
 	
 	speak: function () {
 		console.log('Hi, my name is ' + this.name);
@@ -14,4 +14,4 @@ var alien = {
 	}
 }
 
-alien.speak();
+bob.speak();
