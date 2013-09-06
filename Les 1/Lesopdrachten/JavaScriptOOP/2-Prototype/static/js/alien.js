@@ -19,3 +19,5 @@ Persoon.prototype.eat = function () {
 var bob = new Persoon('Bob');
 
 bob.speak();
+bob.walk();
+bob.eat();
